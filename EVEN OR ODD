@@ -1,0 +1,21 @@
+import java.util.*;
+public class basic
+{
+public static void main(String[] args)
+{
+Scanner scanner=new Scanner(System.in);
+System.out.println("Enter number:");
+int number=scanner.nextInt();
+for(int a=1;a<=number;a++)
+{
+   if(a%2!=0)
+{
+  System.out.println(a+ "is ODD NUMBER");
+}
+   else
+{
+  System.out.println(a+ "is EVEN NUMBER");
+}
+}
+}
+}
