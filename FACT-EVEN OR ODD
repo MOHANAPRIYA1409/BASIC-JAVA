@@ -1,0 +1,21 @@
+import java.util.*;
+public class basic
+{
+public static void main(String[] args)
+{
+int fact=1;
+for(int i=1;i<=10;i++)
+{
+  fact*=i;
+}
+System.out.println("Factorial Number:" +fact);
+if(fact%2==0)
+{
+System.out.println("EVEN");
+}
+else
+{
+System.out.println("ODD");
+}
+}
+}
