@@ -1,0 +1,10 @@
+import java.util.*;
+public class Main{
+public static void main(String[]args){
+Scanner scanner=new Scanner(System.in);
+System.out.println("Enter Number:");
+int n=scanner.nextInt();
+String result=(n>=18) ? "Eligible for voting" : "Not eligible for voting";
+System.out.println("Voting criteria:" +" "+result);
+}
+}
